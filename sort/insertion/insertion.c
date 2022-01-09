@@ -23,7 +23,7 @@ void insertion_sort(int s[], int n)
 		while((j > 0) && (s[j] < s[j-1]))
 		{
 			swap(&s[j], &s[j-1]);		
-			++j;
+			--j;
 		}
 	}
 }
